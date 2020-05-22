@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="happy-hour.css">
+	<h1>Deals in Ottawa</h1>
+</head>
+
+<h2>Areas</h2>
+<p>Jump to a section:
+<ul>
+<li><a href="#Byward">Byward</a></li>
+<img src="https://www.narcity.com/uploads/223729_01c443800ea6e31eefeec30ed200a97f42676a9f.png_facebook.png" class="thumbnail-image red-border">
+<li><a href="#Downtown">Downtown</a></li>
+<img src="https://www.ottawatourism.ca/wp-content/uploads/2014/10/1600x500-Bank-Street-DSC07516-credit-Ottawa-Tourism.jpg" class="thumbnail-image red border"> 
+<li><a href="#The Glebe & Old Ottawa South">The Glebe & Old Ottawa South</a></li>
+<img src="https://cdn.shopify.com/s/files/1/0395/3485/products/Ottawa-GlebeThe_e38f6dab-caf1-4cdb-a9b3-75b7530e0aff_1024x1024.jpg?v=1513916883" class="red-border thumbnail-image">
+</ul>
+</p>
+
+<p>This website will help you find food and drink deals across Ottawa!</p>
+<img src="https://cache.marriott.com/marriottassets/destinations/hero/ottawa-destination.jpg?interpolation=progressive-bilinear" class="red-border banner-image">
+<body>
+<main>
+<h2 id="Byward">Byward</h2>
+
+<h3><a href="https://joeyrestaurants.com/location/joey-rideau" target="_blank" title="Go to website">Joey </a></h3>
+<p>Joey is a chain of restaurants with locations throughout Ottawa.</p>
+<p>Happy Hours: Every day 2pm-5pm | Sunday – Thursday 10pm to close.</p>
+<div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=joey%20rideau&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com"></a></div><style>.mapouter{position:relative;text-align:right;height:300px;width:300px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:300px;}</style></div>
+
+<h2 id="Downtown">Downtown</h2>
+<h2 id="The Glebe & Old Ottawa South">The Glebe & Old Ottawa South</h2>
+	<div class="red-background">
+	<form class="black-text" action="/submit-deal-form<---! I'm not sure what to put here--->">
+	<p>Did I miss something or get something wrong? Submit the details below.
+			<p>This is about:</p>
+	<label for="new-deal"><input type="radio" name="deal-amendment">a new deal</label>
+	<label for="Amendment"><input id="Amendment" type="radio" name="deal-amendment">something that needs to be fixed</label>
+	<label for="other"><input id="other" type="radio" name="deal-amendment" checked>something else</label>
+		 <label for="drink"><input id="drink" type="checkbox" value="drink" name="food-drink-other">Drink</label>
+		 <label for="food"><input id="food" type="checkbox" value="food" name="food-drink-other">Food</label>
+		 <label for="other"><input id="other" type="checkbox" value="other" name="food-drink-other">Other</label>
+		 <!--- ...value="blah".... will tell the form what option the person selects. Add this to all of the radio and checkbox inputs. If you omit the value attribute, the submitted form data uses the default value, which is "on", rather than what they actually selected--->
+	<form action="contact"><!---no ideas where to go---><input type="text" required placeholder="Tell me something I don't know">
+	<button type="submit">Submit</button>
+	</form>
+	</div>
+</main>
+</body>
+</html>
