@@ -1,0 +1,43 @@
+  h2 {
+    font-family: monospace;
+	font-color: red;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: cursive;
+  }
+  
+  .red-border {
+	  border-width: 2px;
+	  border-color: red;
+	  border-style: solid;
+  }
+  
+  .banner-image {
+	  width: 800px;
+  }
+  
+  .thumbnail-image {
+	  width: 200px;
+  }
+  
+  .red-background {
+	  background-color: red;
+  }
+  
+  #submit-deal-form {
+	  
+	  
+  }
+  
+  body {
+	  background-color: gray;
+	  color: red;
+  }
+  
+  .black-text {
+	  color: black;
+  }
+  
+  
